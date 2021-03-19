@@ -20,7 +20,7 @@ public class Rock_Paper_Scissor {
             
             // Logics
             if (userInput == compInput) {
-                System.out.println("opps!! Match Drawn");
+                System.out.println("boo!! Match Drawn");
             } else if (userInput == 0 && compInput == 2 || userInput == 1 && compInput == 0
             || userInput == 2 && compInput == 1) {
                 System.out.println("Hurray!! You Won");
